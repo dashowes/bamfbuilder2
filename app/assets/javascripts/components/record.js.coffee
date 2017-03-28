@@ -7,11 +7,11 @@
     handleEdit: (e) ->
       e.preventDefault()
       data =
-        title: React.findDOMNode(@refs.title).value
         date: React.findDOMNode(@refs.date).value
+        title: React.findDOMNode(@refs.title).value
         weight: React.findDOMNode(@refs.weight).value
-        sets: React.findDOMNode(@refs.weight).sets
-        reps: React.findDOMNode(@refs.weight).reps
+        sets: React.findDOMNode(@refs.sets).value
+        reps: React.findDOMNode(@refs.reps).value
       $.ajax
         method: 'PUT'
         url: "/records/#{ @props.record.id }"

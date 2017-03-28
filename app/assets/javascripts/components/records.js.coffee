@@ -16,10 +16,10 @@
       @replaceState records: records
     render: ->
       React.DOM.div
-        className: 'records'
+        className: 'mainpage records'
         React.DOM.h2
           className: 'title'
-          'Lifts'
+          'What did YOU train today?'
         React.createElement RecordForm, handleNewRecord: @addRecord
         React.DOM.hr null
         React.DOM.table

@@ -1,3 +1,32 @@
 // Place all the styles related to the Records controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.mainpage {
+    background-color: #666666;
+    color: white;
+    padding: 1.5em;
+    width: 100%;
+    height: 85em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    color: #F3DE2C;
+    font-size: 3.65em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.hellyeahbtn {
+    padding: .65em;
+    color: black;
+    background-color: #F3DE2C;
+    border: none;
+    margin-left: .75em;
+    &:hover {
+        background-color: #c3c3c3;
+        cursor: pointer;
+    }
+}

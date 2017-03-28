@@ -68,6 +68,6 @@
             onChange: @handleChange
         React.DOM.button
           type: 'submit'
-          className: 'btn btn-primary'
+          className: 'hellyeahbtn'
           disabled: !@valid()
           'Hell yeah.'
